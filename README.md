@@ -8,15 +8,29 @@
 ### A little more about me...  
 
 ```javascript
-const sara = {
-  pronouns: "she" | "her",
-  code: [Javascript, HTML, CSS, NodeJs, Express],
-  tools: [React in progess, Mocha, Docker],
-  architecture: ["microservices", "design system pattern"],
+const aboutMe = {
+   pronouns: "she" | "her",
+   code: [Javascript, HTML, CSS],
+   technologies: {
+      frontEnd: {
+         js: ["React in progress"],
+         css: [SASS]
+      },
+      backEnd: {
+         js: ["Node", "Express"],
+      },
+      databases: ["mySQL", "SQLServer"],
+   },
+   tools: [Docker, Bitcucket, VS, Git],
+      
+   challenge: "I'm learning React.",
+};
 
- challenge: "I am learning React for change my life"
-}
 ```
+| [<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="jQuery" width="24">](https://jquery.com/)| [<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" alt="mysql" width="24">](https://www.mysql.com/) |  [<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" alt="firebase" width="24">](https://firebase.google.com/) | [<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" alt="Git" width="24">](https://git-scm.com/) | [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/1200px-Visual_Studio_Code_1.18_icon.svg.png" alt="vscode" width="24">](https://code.visualstudio.com/) |
+
+
+
 
 <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b>.</em>
 
